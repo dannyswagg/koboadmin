@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kobocity Admin</title>
+    <meta name="author" content="kobocity" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animation.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap-select.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="font/fonts.css" />
+    <link rel="stylesheet" href="icon/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="images/favicon.ico" />
+  </head>
+
+  <body class="body">
+    <!-- #wrapper -->
+    <div id="wrapper">
+      <!-- #page -->
+      <div id="page" class="">
+        <!-- layout-wrap -->
+        <div class="layout-wrap">
+          <!-- section-menu-left -->
+          <div class="section-menu-left">
+            <div class="box-logo">
+              <a href="index.html" id="site-logo-inner">
+                <img
+                  class=""
+                  id="logo_header"
+                  alt=""
+                  src="images/logo/logo.png"
+                  style="height: 40px"
+                />
+              </a>
+              <div class="button-show-hide">
+                <i class="icon-menu-left"></i>
+              </div>
+            </div>
+            <div class="center">
+              <div class="center-item">
+                <ul class="menu-list">
+                  <li class="menu-item">
+                    <a href="index.html" class="menu-item-button">
+                      <div class="icon"><i class="icon-grid"></i></div>
+                      <div class="text">Dashboard</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="center-item">
+                <ul class="menu-list">
+                  <li class="menu-item">
+                    <a href="product-list.html" class="menu-item-button">
+                      <div class="icon"><i class="icon-shopping-cart"></i></div>
+                      <div class="text">Products</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="stock.html" class="menu-item-button">
+                      <div class="icon"><i class="icon-shopping-cart"></i></div>
+                      <div class="text">Stocks</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="orders.html" class="menu-item-button">
+                      <div class="icon"><i class="icon-file-plus"></i></div>
+                      <div class="text">Orders</div>
+                    </a>
+                  </li>
+                  <li class="menu-item active">
+                    <a href="customers.html" class="menu-item-button">
+                      <div class="icon"><i class="icon-user"></i></div>
+                      <div class="text">Customers</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="sales.html" class="menu-item-button">
+                      <div class="icon"><i class="icon-user"></i></div>
+                      <div class="text">Sales</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="center-item">
+                <ul class="menu-list">
+                  <li class="menu-item">
+                    <a href="maintenance.html" class="">
+                      <div class="icon"><i class="icon-settings"></i></div>
+                      <div class="text">Maintenance</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="center-item">
+                <ul class="menu-list">
+                  <li class="menu-item">
+                    <a href="#" class="">
+                      <div class="icon"><i class="icon-help-circle"></i></div>
+                      <div class="text">Help center</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="">
+                      <div class="icon">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M15.7727 4.27031C15.025 3.51514 14.1357 2.91486 13.1558 2.50383C12.1758 2.09281 11.1244 1.87912 10.0617 1.875H10C7.84512 1.875 5.77849 2.73102 4.25476 4.25476C2.73102 5.77849 1.875 7.84512 1.875 10V14.375C1.875 14.8723 2.07254 15.3492 2.42417 15.7008C2.77581 16.0525 3.25272 16.25 3.75 16.25H5C5.49728 16.25 5.9742 16.0525 6.32583 15.7008C6.67746 15.3492 6.875 14.8723 6.875 14.375V11.25C6.875 10.7527 6.67746 10.2758 6.32583 9.92417C5.9742 9.57254 5.49728 9.375 5 9.375H3.15313C3.27366 8.07182 3.76315 6.83 4.56424 5.79508C5.36532 4.76016 6.44481 3.97502 7.67617 3.53169C8.90753 3.08836 10.2398 3.0052 11.5167 3.29196C12.7936 3.57872 13.9624 4.22352 14.8859 5.15078C16.0148 6.28539 16.7091 7.78052 16.8477 9.375H15C14.5027 9.375 14.0258 9.57254 13.6742 9.92417C13.3225 10.2758 13.125 10.7527 13.125 11.25V14.375C13.125 14.8723 13.3225 15.3492 13.6742 15.7008C14.0258 16.0525 14.5027 16.25 15 16.25H16.875C16.875 16.7473 16.6775 17.2242 16.3258 17.5758C15.9742 17.9275 15.4973 18.125 15 18.125H10.625C10.4592 18.125 10.3003 18.1908 10.1831 18.3081C10.0658 18.4253 10 18.5842 10 18.75C10 18.9158 10.0658 19.0747 10.1831 19.1919C10.3003 19.3092 10.4592 19.375 10.625 19.375H15C15.8288 19.375 16.6237 19.0458 17.2097 18.4597C17.7958 17.8737 18.125 17.0788 18.125 16.25V10C18.1291 8.93717 17.9234 7.88398 17.5197 6.90077C17.1161 5.91757 16.5224 5.02368 15.7727 4.27031ZM5 10.625C5.16576 10.625 5.32473 10.6908 5.44194 10.8081C5.55915 10.9253 5.625 11.0842 5.625 11.25V14.375C5.625 14.5408 5.55915 14.6997 5.44194 14.8169C5.32473 14.9342 5.16576 15 5 15H3.75C3.58424 15 3.42527 14.9342 3.30806 14.8169C3.19085 14.6997 3.125 14.5408 3.125 14.375V10.625H5ZM15 15C14.8342 15 14.6753 14.9342 14.5581 14.8169C14.4408 14.6997 14.375 14.5408 14.375 14.375V11.25C14.375 11.0842 14.4408 10.9253 14.5581 10.8081C14.6753 10.6908 14.8342 10.625 15 10.625H16.875V15H15Z"
+                            fill="#111111"
+                          />
+                        </svg>
+                      </div>
+                      <div class="text">FAQs</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" class="">
+                      <div class="icon">
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g clip-path="url(#clip0_604_18468)">
+                            <path
+                              d="M4.71875 7V1H15.5561L18.9991 4.44801V19H4.71875C4.71875 19 4.71875 16.2 4.71875 13.5"
+                              stroke="#111111"
+                              stroke-width="1.2"
+                              stroke-miterlimit="10"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M19.0015 4.44801H15.5586V1L19.0015 4.44801Z"
+                              stroke="#111111"
+                              stroke-width="1.2"
+                              stroke-miterlimit="10"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M7.53469 14.5507C9.89243 14.5507 11.8037 12.6366 11.8037 10.2754C11.8037 7.91415 9.89243 6 7.53469 6C5.17695 6 3.26562 7.91415 3.26562 10.2754C3.26562 12.6366 5.17695 14.5507 7.53469 14.5507Z"
+                              stroke="#111111"
+                              stroke-width="1.2"
+                              stroke-miterlimit="10"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M5.41029 13.9852L2.90967 16.4895C2.47263 16.9272 1.76451 16.9272 1.3275 16.4895C0.890833 16.0522 0.890833 15.3427 1.3275 14.9054L3.82812 12.4011M6.14799 10.2051L7.11794 11.175L8.91794 9.375"
+                              stroke="#111111"
+                              stroke-width="1.2"
+                              stroke-miterlimit="10"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_604_18468">
+                              <rect width="20" height="20" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+                      </div>
+                      <div class="text">Privacy policy</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="center-item">
+                <div class="center-heading">Connect us</div>
+                <ul class="wg-social">
+                  <li>
+                    <a href="#"><i class="icon-facebook"></i></a>
+                  </li>
+                  <li class="active">
+                    <a href="#"><i class="icon-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="icon-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="bot text-center">
+              <div class="wrap">
+                <div class="mb-20">
+                  <img src="images/menu-left/img-bot.png" alt="" />
+                </div>
+                <div class="mb-20">
+                  <h6>Hi, how can we help?</h6>
+                  <div class="text">
+                    Contact us if you have any assistance, we will contact you
+                    as soon as possible
+                  </div>
+                </div>
+                <a href="#" class="tf-button w-full">Contact</a>
+              </div>
+            </div>
+          </div>
+          <!-- /section-menu-left -->
+          <!-- section-content-right -->
+          <div class="section-content-right">
+            <!-- header-dashboard -->
+            <div class="header-dashboard">
+              <div class="wrap">
+                <div class="header-left">
+                  <a href="index.html">
+                    <img
+                      class=""
+                      id="logo_header_mobile"
+                      alt=""
+                      src="images/logo/logo.png"
+                      style="height: 40px"
+                    />
+                  </a>
+                  <div class="button-show-hide">
+                    <i class="icon-menu-left"></i>
+                  </div>
+                  <form class="form-search flex-grow">
+                    <fieldset class="name">
+                      <input
+                        type="text"
+                        placeholder="Search here..."
+                        class="show-search"
+                        name="name"
+                        tabindex="2"
+                        value=""
+                        aria-required="true"
+                        required=""
+                      />
+                    </fieldset>
+                    <div class="button-submit">
+                      <button class="" type="submit">
+                        <i class="icon-search"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="header-grid">
+                  <div class="header-item button-dark-light">
+                    <i class="icon-moon"></i>
+                  </div>
+                  <div class="header-item button-zoom-maximize">
+                    <div class="">
+                      <i class="icon-maximize"></i>
+                    </div>
+                  </div>
+                  <div class="popup-wrap user type-header">
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton3"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <span class="header-user wg-user">
+                          <span class="image">
+                            <img src="images/avatar/user-1.png" alt="" />
+                          </span>
+                          <span class="flex flex-column">
+                            <span class="body-title mb-2">Jane Doe</span>
+                            <span class="text-tiny">Admin</span>
+                          </span>
+                        </span>
+                      </button>
+                      <ul
+                        class="dropdown-menu dropdown-menu-end has-content"
+                        aria-labelledby="dropdownMenuButton3"
+                      >
+                        <li>
+                          <a href="#" class="user-item">
+                            <div class="icon">
+                              <i class="icon-user"></i>
+                            </div>
+                            <div class="body-title-2">Account</div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="user-item">
+                            <div class="icon">
+                              <i class="icon-mail"></i>
+                            </div>
+                            <div class="body-title-2">Inbox</div>
+                            <div class="number">27</div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="user-item">
+                            <div class="icon">
+                              <i class="icon-file-text"></i>
+                            </div>
+                            <div class="body-title-2">Taskboard</div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="setting.html" class="user-item">
+                            <div class="icon">
+                              <i class="icon-settings"></i>
+                            </div>
+                            <div class="body-title-2">Setting</div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="user-item">
+                            <div class="icon">
+                              <i class="icon-headphones"></i>
+                            </div>
+                            <div class="body-title-2">Support</div>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="login.html" class="user-item">
+                            <div class="icon">
+                              <i class="icon-log-out"></i>
+                            </div>
+                            <div class="body-title-2">Log out</div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /header-dashboard -->
+            <!-- main-content -->
+            <div class="main-content">
+              <!-- main-content-wrap -->
+              <div class="main-content-inner">
+                <!-- main-content-wrap -->
+                <div class="main-content-wrap">
+                  <div
+                    class="flex items-center flex-wrap justify-between gap20 mb-27"
+                  >
+                    <h3>Customers List</h3>
+                    <ul
+                      class="breadcrumbs flex items-center flex-wrap justify-start gap10"
+                    >
+                      <li>
+                        <a href="index.html"
+                          ><div class="text-tiny">Dashboard</div></a
+                        >
+                      </li>
+                      <li>
+                        <i class="icon-chevron-right"></i>
+                      </li>
+                      <li>
+                        <div class="text-tiny">Customers List</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- order-list -->
+                  <div class="wg-box">
+                    <div
+                      class="flex items-center justify-between gap10 flex-wrap"
+                    >
+                      <div class="wg-filter flex-grow">
+                        <form class="form-search">
+                          <fieldset class="name">
+                            <input
+                              type="text"
+                              placeholder="Search here..."
+                              class=""
+                              name="name"
+                              tabindex="2"
+                              value=""
+                              aria-required="true"
+                              required=""
+                            />
+                          </fieldset>
+                          <div class="button-submit">
+                            <button class="" type="submit">
+                              <i class="icon-search"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                      <a
+                        class="tf-button style-1 w208"
+                        type="button"
+                        data-toggle="modal"
+                        data-target="#customerModal"
+                        ><i class="icon-plus"></i>Add New</a
+                      >
+                    </div>
+                    <div class="wg-table table-all-category">
+                      <ul class="table-title flex gap20 mb-14">
+                        <li>
+                          <div class="body-title">Full Name</div>
+                        </li>
+                        <li>
+                          <div class="body-title">Info</div>
+                        </li>
+                        <li>
+                          <div class="body-title">Username</div>
+                        </li>
+                        <li>
+                          <div class="body-title">Status</div>
+                        </li>
+                        <li>
+                          <div class="body-title">Action</div>
+                        </li>
+                      </ul>
+                      <ul class="flex flex-column">
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">Victor Shawn</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="product-item gap14">
+                          <div
+                            class="flex items-center justify-between gap20 flex-grow"
+                          >
+                            <div class="body-text">David Mark</div>
+                            <div class="body-text">
+                              Email: danny@gmail.com <br />
+                              Contact: 08012345678 <br />
+                              Address: Wuse zone 5, shoprite building
+                            </div>
+                            <div class="body-text">kemmy</div>
+                            <div>
+                              <div class="block-available">Active</div>
+                            </div>
+                            <div class="list-icon-function">
+                              <div class="item eye">
+                                <i class="icon-eye"></i>
+                              </div>
+                              <div class="item edit">
+                                <i class="icon-edit-3"></i>
+                              </div>
+                              <div class="item trash">
+                                <i class="icon-trash-2"></i>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="divider"></div>
+                    <div
+                      class="flex items-center justify-between flex-wrap gap10"
+                    >
+                      <div class="text-tiny">Showing 10 entries</div>
+                      <ul class="wg-pagination">
+                        <li>
+                          <a href="#"><i class="icon-chevron-left"></i></a>
+                        </li>
+                        <li>
+                          <a href="#">1</a>
+                        </li>
+                        <li class="active">
+                          <a href="#">2</a>
+                        </li>
+                        <li>
+                          <a href="#">3</a>
+                        </li>
+                        <li>
+                          <a href="#"><i class="icon-chevron-right"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- /order-list -->
+                </div>
+                <!-- /main-content-wrap -->
+              </div>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="customerModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <form class="form-add-product">
+                      <div class="wg-box">
+                        <fieldset class="name">
+                          <div class="body-title mb-10">
+                            Full name <span class="tf-color-1">*</span>
+                          </div>
+                          <input
+                            class="mb-10"
+                            type="text"
+                            placeholder="Enter full name"
+                            name="text"
+                            tabindex="0"
+                            value=""
+                            aria-required="true"
+                            required=""
+                          />
+                          <div class="text-tiny">
+                            Do not exceed 20 characters when entering the
+                            product name.
+                          </div>
+                        </fieldset>
+                        <div class="gap22 cols">
+                          <fieldset class="name">
+                            <div class="body-title mb-10">
+                              Email Address <span class="tf-color-1">*</span>
+                            </div>
+                            <input
+                              class="mb-10"
+                              type="text"
+                              placeholder="Enter email"
+                              name="text"
+                              tabindex="0"
+                              value=""
+                              aria-required="true"
+                              required=""
+                            />
+                          </fieldset>
+                          <fieldset class="name">
+                            <div class="body-title mb-10">
+                              Contact No <span class="tf-color-1">*</span>
+                            </div>
+                            <input
+                              class="mb-10"
+                              type="text"
+                              placeholder="Enter contact no"
+                              name="text"
+                              tabindex="0"
+                              value=""
+                              aria-required="true"
+                              required=""
+                            />
+                          </fieldset>
+                        </div>
+                        <fieldset class="description">
+                          <div class="body-title mb-10">
+                            Address <span class="tf-color-1">*</span>
+                          </div>
+                          <textarea
+                            class="mb-10"
+                            name="description"
+                            placeholder="Enter address"
+                            tabindex="0"
+                            aria-required="true"
+                            required=""
+                          ></textarea>
+                        </fieldset>
+                        <div class="gap22 cols">
+                          <fieldset class="name">
+                            <div class="body-title mb-10">
+                              Username <span class="tf-color-1">*</span>
+                            </div>
+                            <input
+                              class="mb-10"
+                              type="text"
+                              placeholder="Enter username"
+                              name="text"
+                              tabindex="0"
+                              value=""
+                              aria-required="true"
+                              required=""
+                            />
+                          </fieldset>
+                          <fieldset class="name">
+                            <div class="body-title mb-10">
+                              Password <span class="tf-color-1">*</span>
+                            </div>
+                            <input
+                              class="mb-10"
+                              type="password"
+                              placeholder="Enter password"
+                              name="text"
+                              tabindex="0"
+                              value=""
+                              aria-required="true"
+                              required=""
+                            />
+                          </fieldset>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal ends here -->
+              <!-- /main-content-wrap -->
+              <!-- bottom-page -->
+              <div class="bottom-page">
+                <div class="body-text">
+                  Copyright © 2024 Kobocity. Design with
+                </div>
+                <i class="icon-heart"></i>
+                <div class="body-text">
+                  by
+                  <a href="https://indulgencedigital.org">IDCL AFrica</a>
+                  All rights reserved.
+                </div>
+              </div>
+              <!-- /bottom-page -->
+            </div>
+            <!-- /main-content -->
+          </div>
+          <!-- /section-content-right -->
+        </div>
+        <!-- /layout-wrap -->
+      </div>
+      <!-- /#page -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/zoom.js"></script>
+    <script src="js/switcher.js"></script>
+    <script src="js/theme-settings.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

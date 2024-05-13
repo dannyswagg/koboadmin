@@ -1795,7 +1795,7 @@ a:focus {
   height: 206px;
 }
 .upload-image .item.up-load {
-  min-height: 208px;
+  min-height: 120px;
   border: 1px dashed var(--Main);
 }
 .upload-image .uploadfile {
@@ -3114,9 +3114,6 @@ form input[type="button"]:hover,
 form input[type="reset"]:hover,
 form input[type="submit"]:hover {
   color: var(--primary);
-}
-form textarea {
-  height: 200px !important;
 }
 form .cols {
   display: -webkit-box;
@@ -4854,8 +4851,12 @@ select.h40 {
 .wg-table.table-top-product-1 .product-item > .flex > div:nth-child(4) {
   width: 72px;
 }
-.wg-table.table-product-list > * {
-  min-width: 1515px;
+/* Default style */
+/* Media query for small screens (up to 767px) */
+@media (max-width: 767px) {
+  .wg-table.table-product-list > * {
+    min-width: 1515px; /* Reset the min-width */
+  }
 }
 .wg-table.table-product-list ul.table-title {
   padding: 12px;
@@ -4904,8 +4905,12 @@ select.h40 {
 .wg-table.table-product-list .product-item:nth-child(2n + 1) {
   background: var(--bg-table);
 }
-.wg-table.table-all-category > * {
-  min-width: 1515px;
+
+/* Media query for small screens (up to 767px) */
+@media (max-width: 767px) {
+  .wg-table.table-all-category > * {
+    min-width: 1515px; /* Reset the min-width */
+  }
 }
 .wg-table.table-all-category ul.table-title {
   padding: 12px;
